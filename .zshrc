@@ -1,4 +1,4 @@
-export ZSH=/home/xd/.oh-my-zsh
+export ZSH=/home/username/.oh-my-zsh
 setopt autocd              # change directory just by typing its name
 setopt correct            # auto correct mistakes
 setopt interactivecomments # allow comments in interactive mode
@@ -91,7 +91,7 @@ fi
 
 configure_prompt() {
     prompt_symbol=🧨
-    # Skull emoji for root terminal
+     Skull emoji for root terminal
     #[ "$EUID" -eq 0 ] && prompt_symbol=💀
     case "$PROMPT_ALTERNATIVE" in
         twoline)
