@@ -1,4 +1,4 @@
-export ZSH=/home/username/.oh-my-zsh
+export ZSH=/home/xd/.oh-my-zsh
 setopt autocd              # change directory just by typing its name
 setopt correct            # auto correct mistakes
 setopt interactivecomments # allow comments in interactive mode
@@ -91,8 +91,8 @@ fi
 
 configure_prompt() {
     prompt_symbol=🧨
-     Skull emoji for root terminal
-    #[ "$EUID" -eq 0 ] && prompt_symbol=💀
+    # Skull emoji for root terminal
+   # [ "$EUID" -eq 0 ] && prompt_symbol=💀
     case "$PROMPT_ALTERNATIVE" in
         twoline)
             PROMPT=$'%F{%(#.blue.green)}┌──${debian_chroot:+($debian_chroot)─}${VIRTUAL_ENV:+($(basename $VIRTUAL_ENV))─}(%B%F{%(#.red.blue)}%n'$prompt_symbol$'%m%b%F{%(#.blue.green)})-[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{%(#.blue.green)}]\n└─%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
@@ -253,10 +253,12 @@ alias s='sudo'
 alias sau='sudo apt update'
 alias sauu='sudo apt upgrade'
 alias saf='sudo apt full-upgrade'
-alias sar='sudo apt autoremove'
+alias saar='sudo apt autoremove'
 alias stest='speedtest'
 alias md='mkdir'
-
+alias sai='sudo apt install'
+alias sap='sudo apt purge'
+alias sar='sudo apt remove'
 
 
 
