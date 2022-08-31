@@ -256,10 +256,13 @@ alias saf='sudo apt full-upgrade'
 alias saar='sudo apt autoremove'
 alias stest='speedtest'
 alias md='mkdir'
+alias saal='sudo apt list'
 alias sai='sudo apt install'
 alias sap='sudo apt purge'
 alias sar='sudo apt remove'
-
+alias sal='sudo apt list --upgradable'
+alias sas='sudo apt satisfy'
+alias cdd='cd Desktop'
 
 
 # enable auto-suggestions based on the history
