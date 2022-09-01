@@ -239,6 +239,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
+alias delhis='sudo rm -rf ~/.zsh_history'
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
