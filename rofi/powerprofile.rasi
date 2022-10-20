@@ -1,5 +1,0 @@
-@import "menu.rasi"
-
-listview {
-  lines: 3;
-}

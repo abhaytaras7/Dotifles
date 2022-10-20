@@ -284,7 +284,6 @@ if [ -f /etc/zsh_command_not_found ]; then
 fi
 
 
-source ~/.bash_aliases
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
