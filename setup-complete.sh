@@ -1,7 +1,11 @@
 #!/usr/bin/bash
 
-
 echo "Starting setup ************************ " 
+
+cd ~
+
+git clone https://github.com/abhaytaras7/Dotifles.git 
+
 
 sudo rm -rf /etc/apt/sources.list
 
@@ -10,7 +14,7 @@ sudo mv ~/Dotifles/sources.list /etc/apt/sources.list
 echo " changing repo mirrors "
 sleep 4
 
-sudo apt update -y && sudo apt upgrade -y && git clone https://github.com/abhaytaras7/Dotifles.git
+sudo apt update -y && sudo apt upgrade -y 
 
 
 sudo apt install lolcat neovim neofetch htop cmake make golang php clang -y
