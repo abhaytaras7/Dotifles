@@ -15,6 +15,7 @@ sudo apt update -y && sudo apt upgrade -y && git clone https://github.com/abhayt
 
 sudo apt install lolcat neovim neofetch htop cmake make golang php clang -y
 
+sudo apt install flameshot obs-studio ffmpeg -y 
 
 
 
@@ -57,7 +58,7 @@ echo " Beep beep "
 
 
 
-
+echo " ############################# Completed  ********** #########################"
 
 
 
