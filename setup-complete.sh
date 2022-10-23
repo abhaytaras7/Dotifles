@@ -37,8 +37,8 @@ sudo mv kirta.png /usr/share/icons/
 
 
 
-sudo mv ~/Dotfiles/.zshrc ~
-sudo mv ~/Dotfiles/.tmux.conf ~
+sudo mv ~/Dotifles/.zshrc ~
+sudo mv ~/Dotifles/.tmux.conf ~
 
 sudo tmux source-file .tmux.conf
 
@@ -52,20 +52,6 @@ source ~/.zshrc
 
 sleep 2
 echo " Beep beep "
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 echo " ############################# Completed  ********** #########################"
 
