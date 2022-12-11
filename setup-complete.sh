@@ -35,10 +35,16 @@ sudo mv idea.svg /usr/share/icons/
 
 sudo mv kirta.png /usr/share/icons/
 
+#add sudo if needed
 
+mkdir ~/.config/tmux/config
+mkdir ~/.config/nvim/config
+mkdir ~/.config/zsh/config
 
-sudo mv ~/Dotifles/.zshrc ~
-sudo mv ~/Dotifles/.tmux.conf ~
+sudo mv ~/Dotfile/init.vim ~/.config/nvim/config
+
+sudo mv ~/Dotifles/.zshrc ~/.config/zsh/config
+sudo mv ~/Dotifles/.tmux.conf  ~/.config/tmux/config
 
 sudo tmux source-file .tmux.conf
 
